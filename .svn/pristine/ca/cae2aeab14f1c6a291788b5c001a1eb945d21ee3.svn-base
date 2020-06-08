@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>华瑶康复中心后台管理系统</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="stylesheet" href="/layui/css/layui.css" media="all">
+    <style>
+        p{
+            margin-left: 4px;
+        }
+        iframe {
+            display: block; /* iframes are inline by default */
+            border: none; /* Reset default border */
+            width: 100%;
+            height: 100%;
+        }
+        .layui-tab-content{
+            height: 100% !important;
+            padding: 0px !important;
+            padding-top: 10px !important;
+        }
+        .layui-tab-item{
+            height: 100%;
+        }
+    </style>
+</head>
+<body class="layui-layout-body">
+
+<div class="layui-layout layui-layout-admin">
+    <div class="layui-header">
+        <div class="layui-logo">&nbsp华瑶康复中心后台管理系统</div>
+        <!-- 头部区域（可配合layui已有的水平导航） -->
+        <ul class="layui-nav layui-layout-right">
+            <li class="layui-nav-item">
+                <a href="javascript:;">
+                    <img src="//tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"
+                         class="layui-nav-img">
+                    <span id="name"></span>
+                </a>
+                <dl class="layui-nav-child">
+                    <dd><a href="">基本资料</a></dd>
+                    <dd><a href="">安全设置</a></dd>
+                </dl>
+            </li>
+            <li class="layui-nav-item"><a href="javascript:void(0)" onclick="logout()">退出</a></li>
+        </ul>logout()
+    </div>
+
+    <div class="layui-side layui-bg-black">
+        <div class="layui-side-scroll">
+            <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
+            <ul class="layui-nav layui-nav-tree" lay-filter="test">
+                <li class="layui-nav-item"><a href="JavaScript:void(0)" id="liuyanguanli" name="Liuyan.html" onclick="tabadd(this)">留言管理</a></li>
+                <li class="layui-nav-item">
+                    <a class="" href="javascript:;" id="lunbotuguangli" name="LunbotuManger.html" onclick="tabadd(this)">轮播图管理</a>
+                </li>
+                <li class="layui-nav-item">
+                    <a href="javascript:;" id="ziyuanguangli" name="ZiyuanManage.html" onclick="tabadd(this)">资源管理</a>
+                </li>
+                <li class="layui-nav-item"><a href="JavaScript:void(0)" name="SuccesscaseManager.html" id="yunshichang" onclick="tabadd(this)">案例管理</a></li>
+
+                <li class="layui-nav-item"><a href="JavaScript:void(0)" name="NewsManager.html" id="newsMan" onclick="tabadd(this)">新闻管理</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="layui-body" style="overflow-y: hidden">
+        <!-- 内容主体区域 -->
+        <div style="height: 100%">
+            <div class="layui-tab" lay-filter="demo" lay-allowclose="false" style="height: 100%">
+                <ul class="layui-tab-title">
+                    <li class="layui-this" lay-id="11">首页</li>
+                </ul>
+                <div class="layui-tab-content">
+                    <div class="layui-tab-item layui-show" >
+                        <div  style="border-left: 4px solid green;background-color:#f2f2f2;padding: 4px">
+                            <p style="color: orange">管理员,你好!</p>
+                            <p>欢迎来到,华瑶后台管理系统!</p>
+                        </div>
+                        <form class="layui-form" action="">
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">输入框</label>
+                                <div class="layui-input-block">
+                                    <input type="text" name="title" required  lay-verify="required" placeholder="请输入标题" autocomplete="off" class="layui-input">
+                                </div>
+                            </div>
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">密码框</label>
+                                <div class="layui-input-inline">
+                                    <input type="password" name="password" required lay-verify="required" placeholder="请输入密码" autocomplete="off" class="layui-input">
+                                </div>
+                                <div class="layui-form-mid layui-word-aux">辅助文字</div>
+                            </div>
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">选择框</label>
+                                <div class="layui-input-block">
+                                    <select   name="city" lay-verify="required">
+                                        <option value=""></option>
+                                        <option value="0">北京</option>
+                                        <option value="1">上海</option>
+                                        <option value="2">广州</option>
+                                        <option value="3">深圳</option>
+                                        <option value="4">杭州</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">复选框</label>
+                                <div class="layui-input-block">
+                                    <input type="checkbox" name="like[write]" title="写作">
+                                    <input type="checkbox" name="like[read]" title="阅读" checked>
+                                    <input type="checkbox" name="like[dai]" title="发呆">
+                                </div>
+                            </div>
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">开关</label>
+                                <div class="layui-input-block">
+                                    <input type="checkbox" name="switch" lay-skin="switch">
+                                </div>
+                            </div>
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">单选框</label>
+                                <div class="layui-input-block">
+                                    <input type="radio" name="sex" value="男" title="男">
+                                    <input type="radio" name="sex" value="女" title="女" checked>
+                                </div>
+                            </div>
+                            <div class="layui-form-item layui-form-text">
+                                <label class="layui-form-label">文本域</label>
+                                <div class="layui-input-block">
+                                    <textarea name="desc" placeholder="请输入内容" class="layui-textarea"></textarea>
+                                </div>
+                            </div>
+                            <div class="layui-form-item">
+                                <div class="layui-input-block">
+                                    <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
+                                    <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+
+            <br><br>
+
+
+            <br>
+
+        </div>
+    </div>
+
+    <div class="layui-footer">
+        <!-- 底部固定区域 -->
+        © http://www.hypqjk.com - 华瑶普洽谈(天津)健康科技有限公司
+    </div>
+</div>
+<script src="/js/jquery.min.js"></script>
+<script src="/layui/layui.all.js" charset="utf-8"></script>
+<script>
+    layui.use('form', function(){
+        var form = layui.form;
+
+        //监听提交
+        form.on('submit(formDemo)', function(data){
+            layer.msg(JSON.stringify(data.field));
+            return false;
+        });
+    });
+    //JavaScript代码区域
+    var ids = [0];
+    var element = layui.element;
+    element.on('tabDelete(demo)', function(data){
+        var id=data.elem.prevObject.prevObject["0"].attributes["0"].value;
+        ids.splice(getIndex(ids,id), 1);
+    });
+    function tabadd(ele) {
+        if(inarray(ids,ele.id)){
+            element.tabChange('demo', ele.id); //切换到：用户管理
+        }else{
+            ids.push(ele.id)
+            element.tabAdd('demo', {
+                title: ele.innerHTML,
+                content: '<iframe data-frameid="1" frameborder="0" name="content"  scrolling="yes" height="100%" width="100%" src="/backmanagement/'+ele.name+'"></iframe>',
+                id: ele.id
+            })
+            element.tabChange('demo', ele.id); //切换到：用户管理
+        }
+
+    }
+    function getIndex(arr, element) {
+        for (var i = 0; i < arr.length; i++) {
+            if (arr[i] == element) {
+                return i;
+            }
+        }
+    }
+
+    function inarray(arr, element) {
+        for (var i = 0; i < arr.length; i++) {
+            if (arr[i] == element) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+
+    function setIframeHeight(iframe) {
+        iframe.height = document.documentElement.scrollHeight || document.body.scrollHeight;
+    };
+    function logout() {
+        $.post("/logOut",{},function (data) {
+            if(data=="ok"){
+                location.href="login.html";
+            }
+        })
+    }
+    $(function(){
+        $("#id1").hide();
+        $.post("/getUserInfo",{},function (data) {
+          $("#name").html(data.username)
+
+        })
+
+    })
+</script>
+</body>
+</html>

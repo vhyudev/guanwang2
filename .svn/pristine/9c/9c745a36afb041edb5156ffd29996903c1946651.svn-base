@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<configuration scan="true" scanPeriod="30 seconds">
+    <appender name="A1" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>.%d{yyyy-MM-dd HH:mm:ss.SSS} %c %p - %m%n</pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>debug</level>
+        </filter>
+    </appender>
+
+    <appender name="A2" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!--See also http://logback.qos.ch/manual/appenders.html#RollingFileAppender-->
+        <File>/opt/java-service/services/sdrrec/logs/debug.log</File>
+        <encoder>
+            <pattern>.%d{yyyy-MM-dd HH:mm:ss.SSS} %c %p - %m%n</pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>DEBUG</level>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <minIndex>1</minIndex>
+            <maxIndex>20</maxIndex>
+            <FileNamePattern>/opt/java-service/services/sdrrec/logs/debug.log.%i</FileNamePattern>
+        </rollingPolicy>
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <MaxFileSize>10MB</MaxFileSize>
+        </triggeringPolicy>
+    </appender>
+
+    <appender name="A3" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!--See also http://logback.qos.ch/manual/appenders.html#RollingFileAppender-->
+        <File>/opt/java-service/services/sdrrec/logs/info.log</File>
+        <encoder>
+            <pattern>.%d{yyyy-MM-dd HH:mm:ss.SSS} %c %p - %m%n</pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>INFO</level>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <minIndex>1</minIndex>
+            <maxIndex>20</maxIndex>
+            <FileNamePattern>/opt/java-service/services/sdrrec/logs/sdk_info.log.%i</FileNamePattern>
+        </rollingPolicy>
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <MaxFileSize>10MB</MaxFileSize>
+        </triggeringPolicy>
+    </appender>
+
+    <appender name="A4" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!--See also http://logback.qos.ch/manual/appenders.html#RollingFileAppender-->
+        <File>/opt/java-service/services/sdrrec/logs/error.log</File>
+        <encoder>
+            <pattern>.%d{yyyy-MM-dd HH:mm:ss.SSS} %c %p - %m%n</pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>ERROR</level>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <minIndex>1</minIndex>
+            <maxIndex>20</maxIndex>
+            <FileNamePattern>/opt/java-service/services/sdrrec/logs/error.log.%i</FileNamePattern>
+        </rollingPolicy>
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <MaxFileSize>10MB</MaxFileSize>
+        </triggeringPolicy>
+    </appender>
+
+
+    <root level="info">
+        <appender-ref ref="A1"/>
+        <appender-ref ref="A2"/>
+        <appender-ref ref="A3"/>
+        <appender-ref ref="A4"/>
+    </root>
+</configuration>

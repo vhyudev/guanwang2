@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7963bff2-e85f-4c4e-85f1-7858916a0442" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hypq/springbootmybatis/controller/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hypq/springbootmybatis/controller/AuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hypq/springbootmybatis/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hypq/springbootmybatis/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hypq/springbootmybatis/service/impl/SuccessServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hypq/springbootmybatis/service/impl/SuccessServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/backmanagement/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/backmanagement/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hypq/springbootmybatis/SpringbootMybatisApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\repos" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../asoftware/apache-maven-3.3.91" />
+        <option name="userSettingsFile" value="D:\asoftware\apache-maven-3.3.91\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cg1u1aGedxTjmufIDDt2b755a3" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Probable bugsCSS</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+          <State>
+            <id>XSLT</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/lib" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\guanwang\src\aaa" />
+      <recent name="C:\workspace\guanwang\src\main\resources\static\backmanagement" />
+      <recent name="C:\workspace\guanwang\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\guanwang" />
+      <recent name="D:\workspace\guanwang\src\lib" />
+      <recent name="D:\workspace\guanwang\src\main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringbootMybatisApplication">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootMybatisApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guanwang" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hypq.springbootmybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hypq.springbootmybatis" />
+      <option name="MAIN_CLASS_NAME" value="com.hypq.springbootmybatis.SpringbootMybatisApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootMybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="guanwang" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hypq.springbootmybatis.SpringbootMybatisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SpringbootMybatisApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7963bff2-e85f-4c4e-85f1-7858916a0442" name="Default" comment="" />
+      <created>1566531842227</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566531842227</updated>
+      <workItem from="1566531843706" duration="899000" />
+      <workItem from="1571922160037" duration="564000" />
+      <workItem from="1572005741653" duration="1395000" />
+      <workItem from="1590935644499" duration="364000" />
+      <workItem from="1591013543855" duration="10160000" />
+      <workItem from="1591111059589" duration="944000" />
+      <workItem from="1591112250710" duration="16000" />
+      <workItem from="1591165210897" duration="70000" />
+      <workItem from="1591180028846" duration="36000" />
+      <workItem from="1591180092217" duration="22000" />
+      <workItem from="1591263312539" duration="452000" />
+      <workItem from="1591263882044" duration="26000" />
+      <workItem from="1591263939439" duration="140000" />
+      <workItem from="1591264093548" duration="11000" />
+      <workItem from="1591264117334" duration="4000" />
+      <workItem from="1591264392724" duration="341000" />
+      <workItem from="1591267112540" duration="462000" />
+      <workItem from="1591277298096" duration="134000" />
+      <workItem from="1591277558882" duration="259000" />
+      <workItem from="1591277864138" duration="610000" />
+      <workItem from="1591280936356" duration="207000" />
+      <workItem from="1591350078969" duration="1617000" />
+      <workItem from="1591366188447" duration="1113000" />
+      <workItem from="1591367781907" duration="202000" />
+      <workItem from="1591368007707" duration="45000" />
+      <workItem from="1591432069281" duration="54000" />
+      <workItem from="1591432157841" duration="10000" />
+      <workItem from="1591432259741" duration="601000" />
+      <workItem from="1591445158667" duration="1196000" />
+      <workItem from="1591450315272" duration="14000" />
+      <workItem from="1591617105207" duration="1136000" />
+      <workItem from="1591618282588" duration="2542000" />
+    </task>
+    <task id="LOCAL-00001" summary="logback提交">
+      <created>1591016353545</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591016353545</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="logback提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="logback提交" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="770" y="501" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1591618214843">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="770" y="501" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1591618214843" />
+    <state x="558" y="91" key="CommitChangelistDialog2" timestamp="1591016351847">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="558" y="91" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1591016351847" />
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1591618757183">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1591618757183" />
+    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1591263693778" />
+    <state width="1877" height="365" key="GridCell.Tab.0.bottom" timestamp="1591620996850">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="365" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1591620996850" />
+    <state width="1877" height="145" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1591450262778" />
+    <state width="1877" height="365" key="GridCell.Tab.0.center" timestamp="1591620996850">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="365" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1591620996850" />
+    <state width="1877" height="145" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1591450262778" />
+    <state width="1877" height="365" key="GridCell.Tab.0.left" timestamp="1591620996850">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="365" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1591620996850" />
+    <state width="1877" height="145" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1591450262778" />
+    <state width="1877" height="365" key="GridCell.Tab.0.right" timestamp="1591620996850">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="365" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1591620996850" />
+    <state width="1877" height="145" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1591450262778" />
+    <state width="1877" height="365" key="GridCell.Tab.1.bottom" timestamp="1591620996850">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="365" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1591620996850" />
+    <state width="1877" height="145" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1591450262778" />
+    <state width="1877" height="365" key="GridCell.Tab.1.center" timestamp="1591620996850">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="365" key="GridCell.Tab.1.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1591620996850" />
+    <state width="1877" height="145" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1591450262778" />
+    <state width="1877" height="365" key="GridCell.Tab.1.left" timestamp="1591620996850">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="365" key="GridCell.Tab.1.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1591620996850" />
+    <state width="1877" height="145" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1591450262778" />
+    <state width="1877" height="365" key="GridCell.Tab.1.right" timestamp="1591620996850">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="365" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1591620996850" />
+    <state width="1877" height="145" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1591450262778" />
+    <state width="1877" height="365" key="GridCell.Tab.2.bottom" timestamp="1591620996850">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="365" key="GridCell.Tab.2.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1591620996850" />
+    <state width="1877" height="145" key="GridCell.Tab.2.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1591450262778" />
+    <state width="1877" height="365" key="GridCell.Tab.2.center" timestamp="1591620996850">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="365" key="GridCell.Tab.2.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1591620996850" />
+    <state width="1877" height="145" key="GridCell.Tab.2.center/0.0.1920.1050@0.0.1920.1050" timestamp="1591450262778" />
+    <state width="1877" height="365" key="GridCell.Tab.2.left" timestamp="1591620996850">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="365" key="GridCell.Tab.2.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1591620996850" />
+    <state width="1877" height="145" key="GridCell.Tab.2.left/0.0.1920.1050@0.0.1920.1050" timestamp="1591450262778" />
+    <state width="1877" height="365" key="GridCell.Tab.2.right" timestamp="1591620996850">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="365" key="GridCell.Tab.2.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1591620996850" />
+    <state width="1877" height="145" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1591450262778" />
+    <state x="461" y="169" key="SettingsEditor" timestamp="1591620016494">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="169" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1591620016494" />
+    <state x="524" y="187" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1591368038742" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1591016356103">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1591016356103" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hypq/springbootmybatis/controller/UserController.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/guanwang$SpringbootMybatisApplication.ic" NAME="SpringbootMybatisApplication Coverage Results" MODIFIED="1591350896587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
